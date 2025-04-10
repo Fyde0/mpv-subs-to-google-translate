@@ -3,4 +3,4 @@ Very simple script that opens Google Translate in the browser and translates the
 
 Edit the file to change the language to translate to and from, and the key binding if needed.
 
-Only works on Linux, change the command on line 27 for other OS.
+Only works on Linux, change the command at the end of the open_google_translate function for other OS.
