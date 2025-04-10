@@ -15,11 +15,13 @@ function open_google_translate()
     mp.osd_message("No subtitle to translate")
     return
   end
-  
+
+  -- escape quotes
+  local last_sub_esc = last_sub:gsub('"', '\\"')
   -- build url
   local url = string.format(
     "https://translate.google.com/?sl=%s&tl=%s&text=%s&op=translate",
-    translate_from, translate_to, last_sub
+    translate_from, translate_to, last_sub_esc
   )
   
   -- open browser
