@@ -1,2 +1,3 @@
-# mpv-subs-to-google-translate
-Simple mpv script that translates subtitles in the browser
+### MPV Subs to Google Translate
+Very simple script that opens Google Translate in the browser and translates the subtitle currently on screen.
+Edit the file to change the language to translate to and from, and the key binding if needed.
